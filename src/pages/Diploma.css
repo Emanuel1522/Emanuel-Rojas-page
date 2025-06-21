@@ -1,0 +1,96 @@
+.target-diploma-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 1280px;
+    margin: 0 auto 2rem;
+}
+
+.diploma-container {
+    width: 1130px;
+    margin-bottom: 20px;
+    padding: 35px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-radius: 15px;
+    gap: 1.5rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: #fff;
+}
+
+.diploma-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.scroll-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.scroll-btn svg {
+  stroke: #007bff;
+}
+
+.diploma-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.diploma-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.diploma-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.category {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.diploma-card {
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.diploma-card:hover {
+    transform: scale(1.03);
+}
+
+.diploma-card img {
+    width: 450px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+}

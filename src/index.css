@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+body {
+  background: linear-gradient(-45deg, #a3d8f4, #d0f0ff, #a3d8f4, #d0f0ff);
+  background-size: 400% 400%;
+  animation: movimientoFondo 30s ease infinite;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+@keyframes movimientoFondo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+main {
+  max-width: 1130px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.principal-container {
+  width: 350px;
+  height: 650px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.profile-image {
+  max-width: 300px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.principal-container p {
+  margin: 15px 0;
+}
+
+.principal-container button {
+  background-color: #638bb3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+/* medium card */
+.medium-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.medium-container h2 {
+  margin-bottom: 10px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.icon-item {
+  text-align: center;
+}
+
+.icon-item img {
+  width: 40px;
+  height: 40px;
+  margin: 7px 0;
+  cursor: pointer;
+}
+
+.icon-item p {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+/* third card */
+.description-container,
+.manual-container {
+  background-color: #f1f7ff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.descripcion-container h2,
+.manual-container h2 {
+  margin-bottom: 10px;
+}
+
+.descripcion-container p,
+.manual-container ul {
+  color: #333;
+}
+
+.manual-container ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.manual-container li {
+  margin-bottom: 6px;
+}
