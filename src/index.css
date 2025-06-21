@@ -2,27 +2,52 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
+
 body {
-  background-image: url('/font.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(-45deg, #a3d8f4, #d0f0ff, #a3d8f4, #d0f0ff);
+  background-size: 400% 400%;
+  animation: movimientoFondo 30s ease infinite;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
+
+@keyframes movimientoFondo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
 
 main {
   max-width: 1130px;
-  margin-top: 40px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .principal-container {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 650px;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -31,9 +56,9 @@ main {
   background-color: white;
 }
 
-.principal-container img {
-  max-width: 350px;
-  margin-bottom: 10px;
+.profile-image {
+  max-width: 300px;
+  margin: 20px 0;
   border-radius: 15px;
 }
 
@@ -53,8 +78,8 @@ main {
   transition: background-color 0.3s;
 }
 
-/* medium card */
 
+/* medium card */
 .medium-container {
   padding: 10px;
   display: flex;
@@ -83,11 +108,14 @@ main {
 .icon-item img {
   width: 40px;
   height: 40px;
+  margin: 7px 0;
+  cursor: pointer;
 }
 
 .icon-item p {
   margin-top: 5px;
   font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .invert {
@@ -95,25 +123,22 @@ main {
 }
 
 /* third card */
-
 .description-container,
 .manual-container {
   background-color: #f1f7ff;
-  padding: 20px;
-  border-radius: 12px;
+  padding: 10px 20px;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   margin-bottom: 20px;
 }
 
 .descripcion-container h2,
 .manual-container h2 {
-  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 .descripcion-container p,
 .manual-container ul {
-  font-size: 0.95rem;
   color: #333;
 }
 

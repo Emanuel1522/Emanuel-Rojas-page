@@ -1,5 +1,5 @@
 import Header from "./components/Header"
-import iconos from "./services/database";
+import { iconosKnowledge } from "./services/database";
 
 function Home() {
 
@@ -9,7 +9,7 @@ function Home() {
       <main>
         <div className="principal-container">
           <div>
-            <img src="/profile.jpg" alt="" />
+            <img src="/profile.jpg" alt="" className="profile-image"/>
             <h2>Emanuel Rojas 👋</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, inventore voluptate dolorem in nesciunt dolor possimus
               excepturi accusantium, voluptatem eos aliquam cupiditate sapiente pariatur deserunt mollitia at ipsam. Ipsa, voluptate.</p>
@@ -18,18 +18,18 @@ function Home() {
         </div>
         <div className="principal-container">
           <div className="medium-container">
-            <h2>Conocimientos</h2>
+            <h2>🧠 Conocimientos</h2>
             <div className="icon-grid">
-              {iconos.map((item, index) => (
+              {iconosKnowledge.map((item, index) => (
                 <div className="icon-item" key={index}>
-                  <img src={item.img} alt={item.nombre} />
+                  <img src={item.img} alt={item.nombre}/>
                   <p>{item.nombre}</p>
                 </div>
               ))}
             </div>
           </div>
           <div className="medium-container">
-            <h2>Redes</h2>
+            <h2>🌐 Redes</h2>
             <div className="icon-grid">
               <div className="icon-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
@@ -44,31 +44,29 @@ function Home() {
                 <p>GitHub</p>
               </div>
             </div>
+            </div>
+            </div>
+          <div className="principal-container">
+            <div className="description-container">
+              <h2>📄 Sobre esta página</h2>
+              <p>
+                Esta página web es una presentación personal desarrollada con React, donde muestro mis habilidades técnicas, enlaces a mis redes
+                profesionales y un resumen de mi perfil.
+              </p>
+              <p>
+                Fue creada como un proyecto personal para practicar desarrollo frontend, organización modular con componentes, y manejo de datos a
+                través de archivos JavaScript.
+              </p>
+            </div>
+            <div className="manual-container">
+              <h2>📘 Manual de uso</h2>
+              <ul>
+                <li><strong>Inicio:</strong> Informacion general propia y redireccion a cualquier opcion en el apartado "Redes".</li>
+                <li><strong>Proyectos:</strong> Se encuentran las vistas previas, redirecciones a mis paginas web y un poco de mis proyectos backend.</li>
+                <li><strong>Diplomas:</strong> Mis certificados de platzi y demas estudios</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className="principal-container">
-          <div className="descripcion-container">
-            <h2>Sobre esta página</h2>
-            <p>
-              Esta página web es una presentación personal desarrollada con React, donde muestro mis habilidades técnicas, enlaces a mis redes 
-              profesionales y un resumen de mi perfil.
-            </p>
-            <p>
-              Fue creada como un proyecto personal para practicar desarrollo frontend, organización modular con componentes, y manejo de datos a 
-              través de archivos JavaScript .
-            </p>
-          </div>
-
-          <div className="manual-container">
-            <h2>📘 Manual de uso</h2>
-            <ul>
-              <li><strong>Inicio:</strong> Vista general con tu nombre, foto y un botón para ver tu CV.</li>
-              <li><strong>Conocimientos:</strong> Tecnologías que manejas con sus respectivos íconos.</li>
-              <li><strong>Redes:</strong> Enlaces a LinkedIn, Gmail y GitHub.</li>
-              <li><strong>Responsivo:</strong> Puedes ver esta página desde celular, tablet o PC sin perder diseño.</li>
-            </ul>
-          </div>
-        </div>
       </main>
     </>
   )

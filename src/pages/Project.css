@@ -1,0 +1,50 @@
+.titulo-proyecto {
+    text-align: center;
+    margin: 1.6rem 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.project-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.proyecto-bloque {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.proyecto-bloque:hover {
+    transform: scale(1.01);
+}
+
+.proyecto-img img {
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.proyecto-texto {
+    flex: 1;
+}
+
+.proyecto-texto h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2a2a2a;
+}
+
+.proyecto-texto p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
