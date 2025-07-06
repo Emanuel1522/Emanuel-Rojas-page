@@ -1,25 +1,25 @@
 .target-diploma-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 1280px;
-    margin: 0 auto 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 1280px;
+  margin: 0 auto 2rem;
 }
 
 .diploma-container {
-    width: 1130px;
-    margin-bottom: 20px;
-    padding: 35px;
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    border-radius: 15px;
-    gap: 1.5rem;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    background-color: #fff;
+  width: 1130px;
+  margin-bottom: 20px;
+  padding: 35px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  border-radius: 15px;
+  gap: 1.5rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: #fff;
 }
 
 .diploma-container::-webkit-scrollbar {
@@ -56,41 +56,64 @@
 }
 
 .diploma-container::-webkit-scrollbar {
-    height: 8px;
+  height: 8px;
 }
 
 .diploma-container::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 10px;
+  background-color: #ccc;
+  border-radius: 10px;
 }
 
 .diploma-container::-webkit-scrollbar-track {
-    background: transparent;
+  background: transparent;
 }
 
 .category {
-    width: 100%;
-    margin-top: 15px;
-    text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .diploma-card {
-    width: 500px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
+  width: 500px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .diploma-card:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .diploma-card img {
-    width: 450px;
-    height: auto;
-    display: block;
-    cursor: pointer;
-    border-radius: 10px 10px 0 0;
+  width: 450px;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 768px) {
+  .scroll-btn {
+    display: none;
+  }
+
+  .target-diploma-container {
+    width: 95vw;
+  }
+
+  .diploma-container {
+    padding: 15px;
+    width: 85vw;
+  }
+
+  .diploma-card {
+    width: 250px;
+  }
+
+  .diploma-container img {
+    width: 250px;
+  }
 }

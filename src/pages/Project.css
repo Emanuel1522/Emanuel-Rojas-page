@@ -1,4 +1,4 @@
-.titulo-proyecto {
+.title {
     text-align: center;
     margin: 1.6rem 0;
     font-size: 2rem;
@@ -12,7 +12,7 @@
     gap: 2rem;
 }
 
-.proyecto-bloque {
+.project-target {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -23,28 +23,59 @@
     transition: transform 0.3s ease;
 }
 
-.proyecto-bloque:hover {
+.project-target:hover {
     transform: scale(1.01);
 }
 
-.proyecto-img img {
+.img-project img {
     width: 500px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.proyecto-texto {
+.project-description {
     flex: 1;
 }
 
-.proyecto-texto h1 {
+.project-description h1 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: #2a2a2a;
 }
 
-.proyecto-texto p {
+.project-description p {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
+}
+
+.project-description button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.project-description button:hover {
+    background-color: #1b5fce;
+}
+
+@media (max-width: 768px) {
+    .project-target {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-project img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .project-description {
+        text-align: center;
+    }
 }

@@ -1,24 +1,26 @@
+import { useTranslation } from "react-i18next";
 import Header from "../components/Header";
 import { platziDiplomas, EnglishDiplomas, othersDiplomas } from "../services/database";
 import "./Diploma.css";
 
 const Diploma = () => {
+  const { t} = useTranslation();
 
   function right(id) {
     const contenedor = document.getElementById(id);
-    contenedor.scrollBy({ left: 500, behavior: "smooth" });
+    contenedor.scrollBy({ left: 400, behavior: "smooth" });
   }
 
   function left(id) {
     const contenedor = document.getElementById(id);
-    contenedor.scrollBy({ left: -500, behavior: "smooth" });
+    contenedor.scrollBy({ left: -400, behavior: "smooth" });
   }
 
   return (
     <>
       <Header />
       <main>
-        <h2 className="category">Platzi</h2>
+        <h2 className="category">{t("diplomas.programming")}</h2>
         <div className="target-diploma-container">
           <button
             className="scroll-btn left"
@@ -40,7 +42,7 @@ const Diploma = () => {
           ><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg></button>
         </div>
-        <h2 className="category">Inglés</h2>
+        <h2 className="category">{t("diplomas.english")}</h2>
         <div className="target-diploma-container">
           <button
             className="scroll-btn left"
@@ -62,7 +64,7 @@ const Diploma = () => {
           ><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg></button>
         </div>
-        <h2 className="category">Otros</h2>
+        <h2 className="category">{t("diplomas.other")}</h2>
         <div className="target-diploma-container">
           <button
             className="scroll-btn left"

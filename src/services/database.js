@@ -64,44 +64,94 @@ export const othersDiplomas = [
 export const FrontProjects = [
   {
     img: "/projects/restaurant.JPG",
-    titulo: "Sitio Web para Restaurante",
-    descripcion: "Diseño moderno con menú digital, reservas y galería de platos.",
-    link: "#"
+    titulo: {
+      en: "Website for Restaurant",
+      es: "Sitio Web para Restaurante"
+    },
+    descripcion: {
+      en: "Modern design with digital menu, reservations, and dish gallery.",
+      es: "Diseño moderno con menú digital, reservas y galería de platos."
+    },
+
+    link: "https://web-sabor-y-alma.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/web-SaborYAlma"
   },
   {
     img: "/projects/app-suscripciones.JPG",
-    titulo: "App de Suscripciones",
-    descripcion: "Aplicación que gestiona planes de suscripción de usuarios y facturación automatizada.",
-    link: "#"
+    titulo: {
+      en: "Subscription App",
+      es: "App de Suscripciones"
+    },
+    descripcion: {
+      en: "App that manages user subscription plans and automated billing.",
+      es: "Aplicación que gestiona planes de suscripción de usuarios y facturación automatizada."
+    },
+    link: "https://app-suscripciones.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/app-suscripciones"
   },
   {
     img: "/projects/todo-list.JPG",
-    titulo: "Lista de Tareas",
-    descripcion: "App para gestionar tareas pendientes con almacenamiento local.",
-    link: "#"
+    titulo: {
+      en: "Task List",
+      es: "Lista de Tareas"
+    },
+    descripcion: {
+      en: "App to manage pending tasks with local storage.",
+      es: "App para gestionar tareas pendientes con almacenamiento local."
+    },
+    link: "https://todo-list-1br2.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/Todo-list"
   },
   {
     img: "/projects/school-users.JPG",
-    titulo: "Gestión de Usuarios Escolares",
-    descripcion: "CRUD de usuarios para una institución educativa.",
-    link: "#"
+    titulo: {
+      en: "School User Management",
+      es: "Gestión de Usuarios Escolares"
+    },
+    descripcion: {
+      en: "User CRUD system for an educational institution.",
+      es: "CRUD de usuarios para una institución educativa."
+    },
+    link: "https://front2-2.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/Front2-2"
   },
   {
     img: "/projects/calculator.JPG",
-    titulo: "Calculadora Interactiva",
-    descripcion: "Calculadora web con operaciones básicas y diseño responsive.",
-    link: "#"
+    titulo: {
+      en: "Interactive Calculator",
+      es: "Calculadora Interactiva"
+    },
+    descripcion: {
+      en: "Web calculator with basic operations and responsive design.",
+      es: "Calculadora web con operaciones básicas y diseño responsive."
+    },
+    link: "https://calculadora-psi-pied.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/Calculadora"
   },
   {
     img: "/projects/pepito-school.JPG",
-    titulo: "Sistema Escolar Pepito School",
-    descripcion: "Plataforma académica para estudiantes, docentes y calificaciones.",
-    link: "#"
+    titulo: {
+      en: "Pepito School System",
+      es: "Sistema Escolar Pepito School"
+    },
+    descripcion: {
+      en: "Academic platform for students, teachers, and grades.",
+      es: "Plataforma académica para estudiantes, docentes y calificaciones."
+    },
+    link: "https://calculo-de-notas-seven.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/Calculo-de-notas"
   },
   {
     img: "/projects/postobon.JPG",
-    titulo: "Landing de Postobón",
-    descripcion: "Página de presentación para productos y campañas de Postobón.",
-    link: "#"
+    titulo: {
+      en: "Postobón Landing Page",
+      es: "Landing de Postobón"
+    },
+    descripcion: {
+      en: "Presentation page for Postobón products and campaigns.",
+      es: "Página de presentación para productos y campañas de Postobón."
+    },
+    link: "https://postobon.vercel.app",
+    githubLink: "https://github.com/Emanuel1522/Postobon"
   }
 ];

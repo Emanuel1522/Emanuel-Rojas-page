@@ -1,0 +1,34 @@
+{
+  "header": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "diplomas": "Diplomas",
+    "language": "EN"
+  },
+  "home": {
+    "aboutMe": "Soy técnico en Desarrollo de Software graduado del CESDE y estudiante del ITM. Me apasiona programar, al escribir código las horas siempre se me pasan sin darme cuenta.",
+    "description": "Hablo inglés, disfruto leer y siempre busco crear páginas bien estructuradas y limpias. Soy muy curioso y estoy listo para aprender todo lo que necesite para destacarme y lograr ser contratado como desarrollador.",
+    "cv": "Ver CV",
+    "knowledge": "🧠 Conocimientos",
+    "networks": "🌐 Redes",
+    "aboutPageTitle": "📄 Sobre esta página",
+    "aboutPage": "Esta página web es una presentación personal desarrollada con React, donde muestro mis habilidades técnicas, enlaces a mis redes profesionales y un resumen de mi perfil.",
+    "aboutPageB": "Fue creada como un proyecto personal para practicar desarrollo frontend, organización modular con componentes, y manejo de datos a través de archivos JavaScript.",
+    "manual": "📘 Manual de uso",
+    "first": "Inicio:",
+    "firstText": "Información general propia y redirección a cualquier opción en el apartado Redes.",
+    "second": "Proyectos:",
+    "secondText": "Se encuentran las vistas previas, redirecciones a mis páginas web y un poco de mis proyectos backend.",
+    "third": "Diplomas:",
+    "thirdText": "Mis certificados de platzi y demás estudios"
+  },
+  "projects": {
+        "title": "Mis proyectos",
+        "button": "Ver en GitHub"
+  },
+  "diplomas": {
+    "programming": "Programación",
+    "english": "Inglés",    
+    "other": "Otros"
+  }
+}

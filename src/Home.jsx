@@ -1,7 +1,10 @@
 import Header from "./components/Header"
+import { useTranslation } from "react-i18next";
 import { iconosKnowledge } from "./services/database";
+import { Link } from "react-router-dom";
 
 function Home() {
+  const { t } = useTranslation();
 
   return (
     <>
@@ -9,64 +12,65 @@ function Home() {
       <main>
         <div className="principal-container">
           <div>
-            <img src="/profile.jpg" alt="" className="profile-image"/>
-            <h2>Emanuel Rojas 👋</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, inventore voluptate dolorem in nesciunt dolor possimus
-              excepturi accusantium, voluptatem eos aliquam cupiditate sapiente pariatur deserunt mollitia at ipsam. Ipsa, voluptate.</p>
+            <img src="/profile.jpg" alt="" className="profile-image" />
+            <div className="profile-text">
+              <h2>Emanuel Rojas 👋</h2>
+              <p>
+                {t("home.aboutMe")}<br /> <br /> {t("home.description")}
+              </p>
+            </div>
           </div>
-          <button>Ver CV</button>
+          <Link to={"/cv"} className="resume-button">{t("home.cv")}</Link>
         </div>
         <div className="principal-container">
           <div className="medium-container">
-            <h2>🧠 Conocimientos</h2>
+            <h2>{t("home.knowledge")}</h2>
             <div className="icon-grid">
               {iconosKnowledge.map((item, index) => (
                 <div className="icon-item" key={index}>
-                  <img src={item.img} alt={item.nombre}/>
+                  <img src={item.img} alt={item.nombre} />
                   <p>{item.nombre}</p>
                 </div>
               ))}
             </div>
           </div>
           <div className="medium-container">
-            <h2>🌐 Redes</h2>
+            <h2>{t("home.networks")}</h2>
             <div className="icon-grid">
-              <div className="icon-item">
+              <a className="icon-item" href="https://www.linkedin.com/in/emanuel-rojas-ramirez-0b187835a/" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
                 <p>LinkedIn</p>
-              </div>
-              <div className="icon-item">
+              </a>
+              <a className="icon-item" href="https://mail.google.com/mail/?view=cm&fs=1&to=emanuel.rr1522@gmail.com&su=Contacto%20desde%20tu%20portafolio&body=Hola%20Emanuel,%20vi%20tu%20web%20y%20me%20interes%C3%B3%20tu%20perfil." target="_blank" rel="noopener noreferrer">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" />
                 <p>Gmail</p>
-              </div>
-              <div className="icon-item">
+              </a>
+              <a className="icon-item" href="https://github.com/Emanuel1522" target="_blank" rel="noopener noreferrer">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
                 <p>GitHub</p>
-              </div>
-            </div>
-            </div>
-            </div>
-          <div className="principal-container">
-            <div className="description-container">
-              <h2>📄 Sobre esta página</h2>
-              <p>
-                Esta página web es una presentación personal desarrollada con React, donde muestro mis habilidades técnicas, enlaces a mis redes
-                profesionales y un resumen de mi perfil.
-              </p>
-              <p>
-                Fue creada como un proyecto personal para practicar desarrollo frontend, organización modular con componentes, y manejo de datos a
-                través de archivos JavaScript.
-              </p>
-            </div>
-            <div className="manual-container">
-              <h2>📘 Manual de uso</h2>
-              <ul>
-                <li><strong>Inicio:</strong> Informacion general propia y redireccion a cualquier opcion en el apartado "Redes".</li>
-                <li><strong>Proyectos:</strong> Se encuentran las vistas previas, redirecciones a mis paginas web y un poco de mis proyectos backend.</li>
-                <li><strong>Diplomas:</strong> Mis certificados de platzi y demas estudios</li>
-              </ul>
+              </a>
             </div>
           </div>
+        </div>
+        <div className="principal-container">
+          <div className="description-container">
+            <h2>{t("home.aboutPageTitle")}</h2>
+            <p>
+              {t("home.aboutPage")}
+            </p>
+            <p>
+              {t("home.aboutPageB")}
+            </p>
+          </div>
+          <div className="manual-container">
+            <h2>{t("home.manual")}</h2>
+            <ul>
+              <li><strong>{t("home.first")}</strong> {t("home.firstText")}</li>
+              <li><strong>{t("home.second")}</strong> {t("home.secondText")}</li>
+              <li><strong>{t("home.third")}</strong> {t("home.thirdText")}</li>
+            </ul>
+          </div>
+        </div>
       </main>
     </>
   )

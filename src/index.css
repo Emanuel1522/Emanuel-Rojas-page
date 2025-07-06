@@ -4,37 +4,12 @@
   padding: 0;
   font-family: "Bricolage Grotesque", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
-
 
 body {
-  background: linear-gradient(-45deg, #a3d8f4, #d0f0ff, #a3d8f4, #d0f0ff);
-  background-size: 400% 400%;
-  animation: movimientoFondo 30s ease infinite;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
+  background: #d9f2ff;
+  background: linear-gradient(90deg, rgba(217, 242, 255, 1) 15%, rgba(222, 209, 237, 1) 85%);
 }
-
-@keyframes movimientoFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-
-
 
 main {
   max-width: 1130px;
@@ -47,7 +22,7 @@ main {
 
 .principal-container {
   width: 350px;
-  height: 650px;
+  min-height: 650px;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -58,28 +33,38 @@ main {
 
 .profile-image {
   max-width: 300px;
-  margin: 20px 0;
+  margin-bottom: 10px;
   border-radius: 15px;
+}
+
+.profile-text {
+  background-color: #f1f7ff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .principal-container p {
   margin: 15px 0;
 }
 
-.principal-container button {
-  background-color: #638bb3;
+.resume-button {
+  background-color: #3b82f6;
   color: white;
   border: none;
   padding: 8px 16px;
-  margin-left: 10px;
   border-radius: 12px;
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-decoration: none;
+  text-align: center;
 }
 
+.resume-button:hover {
+  background-color: #1b5fce;
+}
 
-/* medium card */
 .medium-container {
   padding: 10px;
   display: flex;
@@ -87,6 +72,10 @@ main {
   text-align: center;
   border-radius: 15px;
   background-color: aliceblue;
+}
+
+.medium-container:first-child {
+  margin-bottom: 20px;
 }
 
 .medium-container h2 {
@@ -103,17 +92,18 @@ main {
 
 .icon-item {
   text-align: center;
+  text-decoration: none;
 }
 
 .icon-item img {
   width: 40px;
   height: 40px;
   margin: 7px 0;
-  cursor: pointer;
 }
 
 .icon-item p {
   margin-top: 5px;
+  color: black;
   font-size: 0.85rem;
   cursor: pointer;
 }
@@ -122,7 +112,6 @@ main {
   filter: invert(1);
 }
 
-/* third card */
 .description-container,
 .manual-container {
   background-color: #f1f7ff;
@@ -149,4 +138,22 @@ main {
 
 .manual-container li {
   margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  main {
+    max-width: 85vw;
+    margin: 30px auto;
+  }
+
+  .principal-container {
+    min-height: 100%;
+  }
+  .principal-container:first-child {
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 250px;
+  }
 }
