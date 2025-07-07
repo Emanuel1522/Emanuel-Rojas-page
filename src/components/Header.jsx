@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FaHome, FaUser, FaBook, FaBars, FaTimes } from "react-icons/fa";
 import './Header.css';
 
@@ -8,10 +8,20 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const [darkMode, setDarkMode] = useState(() => {
+    const storedTheme = localStorage.getItem("theme");
+    return storedTheme === "dark";
+  });
+
   const toggleLang = () => {
     const newLang = i18n.language === "en" ? "es" : "en";
     i18n.changeLanguage(newLang);
   };
+
+  useEffect(() => {
+    document.body.className = darkMode ? 'dark-theme' : 'light-theme';
+    localStorage.setItem("theme", darkMode ? "dark" : "light");
+  }, [darkMode]);
 
   return (
     <>
@@ -25,12 +35,12 @@ const Header = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 7.5-7.5 7.5 7.5" />
                 </svg>
                 <span>
-                Emanuel<span className='blue-name'>Rojas</span>
+                  Emanuel<span className='blue-name'>Rojas</span>
                 </span>
               </span>
             </h1>
           </div>
-          
+
           <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <FaTimes /> : <FaBars />}
           </div>
@@ -58,11 +68,16 @@ const Header = () => {
           </div>
 
           <div className="header-buttons-desktop">
-            <button>
-              <img src="/icons/dark.svg" alt="" />
+            <button onClick={() => setDarkMode(!darkMode)} className="toggle-theme-btn">
+              <img
+                src={darkMode ? "/icons/light.svg" : "/icons/dark.svg"}
+                alt="icono theme"
+                className="icon"
+              />
+              {darkMode ? '' : ''}
             </button>
             <button onClick={toggleLang}>
-              <img src="/icons/translate.svg" alt="" className="icon-space"/> {t("header.language")}
+              <img src="/icons/translate.svg" alt="" className="icon-space" /> {t("header.language")}
             </button>
           </div>
         </section>
@@ -77,15 +92,20 @@ const Header = () => {
               </ul>
             </nav>
             <div className="header-buttons-mobile">
-              <button>
-                <img src="/icons/dark.svg" alt="" />
+              <button onClick={() => setDarkMode(!darkMode)} className="toggle-theme-btn">
+                <img
+                  src={darkMode ? "/icons/light.svg" : "/icons/dark.svg"}
+                  alt="icono theme"
+                  className="icon"
+                />
+                {darkMode ? '' : ''}
               </button>
               <button onClick={toggleLang}>
                 <img src="/icons/translate.svg" alt="" className="icon-space" /> {t("header.language")}
               </button>
             </div>
           </div>
-          )}
+        )}
       </header>
     </>
   );

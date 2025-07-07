@@ -64,6 +64,13 @@
     background-color: #1b5fce;
 }
 
+@media (max-width: 1200px) {
+    .img-project img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
 @media (max-width: 768px) {
     .project-target {
         flex-direction: column;

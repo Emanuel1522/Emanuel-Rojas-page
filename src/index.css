@@ -11,6 +11,11 @@ body {
   background: linear-gradient(90deg, rgba(217, 242, 255, 1) 15%, rgba(222, 209, 237, 1) 85%);
 }
 
+body.dark-theme {
+  background: #00111c;
+  background: linear-gradient(90deg, rgba(0, 17, 28, 1) 15%, rgba(17, 9, 36, 1) 85%);
+}
+
 main {
   max-width: 1130px;
   margin: 40px auto;
@@ -29,6 +34,37 @@ main {
   justify-content: space-between;
   border-radius: 15px;
   background-color: white;
+}
+
+body.dark-theme .principal-container,
+body.dark-theme .profile-container,
+body.dark-theme .header-mobile-menu {
+  background: rgb(25, 25, 25);
+}
+
+body.dark-theme .header-section {
+  background: rgb(25, 25, 25);
+  color: white;
+}
+
+body.dark-theme .medium-container,
+body.dark-theme .profile-text,
+body.dark-theme .description-container,
+body.dark-theme .manual-container,
+body.dark-theme .manual-container ul,
+body.dark-theme .icon-item p,
+body.dark-theme .header-li,
+body.dark-theme .diploma-container,
+body.dark-theme .project-target,
+body.dark-theme .project-target p,
+body.dark-theme .project-target h1 {
+  background-color: rgb(45, 45, 45);
+  color: #E5E7EB;
+}
+
+body.dark-theme .category,
+body.dark-theme .title {
+  color: white;
 }
 
 .profile-image {
@@ -52,6 +88,7 @@ main {
   background-color: #3b82f6;
   color: white;
   border: none;
+  margin-top: 20px;
   padding: 8px 16px;
   border-radius: 12px;
   font-size: 1.2rem;
@@ -140,6 +177,38 @@ main {
   margin-bottom: 6px;
 }
 
+
+@media (max-width: 1200px) {
+  main {
+    max-width: 85vw;
+    margin: 30px auto;
+  }
+
+  .principal-container {
+    width: 85vw;
+    min-height: auto;
+  }
+
+
+  .profile-container {
+    display: flex;
+  }
+
+  .profile-image {
+    max-width: 300px;
+    max-height: 260px;
+  }
+
+  .profile-text {
+    margin-left: 15px;
+    max-width: 60vw;
+  }
+
+  .medium-container {
+    padding: 10px 100px;
+  }
+}
+
 @media (max-width: 768px) {
   main {
     max-width: 85vw;
@@ -148,12 +217,30 @@ main {
 
   .principal-container {
     min-height: 100%;
+    max-width: 85vw;
+    width: 100%;
   }
+
   .principal-container:first-child {
     text-align: center;
   }
 
+  .profile-container {
+    display: block;
+    text-align: center;
+  }
+
   .profile-image {
-    width: 250px;
+    max-width: 100%;
+  }
+
+  .profile-text {
+    width: 100%;
+    max-width: 75vw;
+    margin: 0;
+  }
+
+  .medium-container {
+    padding: 10px 0;
   }
 }

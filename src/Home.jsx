@@ -11,7 +11,7 @@ function Home() {
       <Header />
       <main>
         <div className="principal-container">
-          <div>
+          <div className="profile-container">
             <img src="/profile.jpg" alt="" className="profile-image" />
             <div className="profile-text">
               <h2>Emanuel Rojas 👋</h2>

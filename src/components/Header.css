@@ -87,7 +87,6 @@
 
 .header-buttons-desktop button:hover {
   background-color: #1b5fce;
-  border: 1px solid #99b6ff;
 }
 
 .icon-space {
@@ -152,7 +151,16 @@
   background-color: #1b5fce;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1200px) {
+  .header-section {
+    max-width: 85vw;
+    margin: 20px auto;
+  }
+}
+
+
+@media (max-width: 940px) {
   .header-section {
     max-width: 85vw;
     margin: 20px auto;

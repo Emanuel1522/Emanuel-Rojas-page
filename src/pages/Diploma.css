@@ -88,18 +88,14 @@
 }
 
 .diploma-card img {
-  width: 450px;
+  width: 500px;
   height: auto;
   display: block;
   cursor: pointer;
   border-radius: 10px 10px 0 0;
 }
 
-@media (max-width: 768px) {
-  .scroll-btn {
-    display: none;
-  }
-
+@media (max-width: 1200px) {
   .target-diploma-container {
     width: 95vw;
   }
@@ -107,6 +103,20 @@
   .diploma-container {
     padding: 15px;
     width: 85vw;
+  }
+
+  .diploma-card {
+    width: 350px;
+  }
+
+  .diploma-container img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-btn {
+    display: none;
   }
 
   .diploma-card {
