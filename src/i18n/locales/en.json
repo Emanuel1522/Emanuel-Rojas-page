@@ -2,7 +2,7 @@
     "header": {
         "home": "Home",
         "projects": "Projects",
-        "diplomas": "Certificates",
+        "diplomas": "Diplomas",
         "language": "ES"
     },
     "home": {
@@ -13,14 +13,14 @@
         "networks": "🌐 Networks",
         "aboutPageTitle": "📄 About this page",
         "aboutPage": "This website is a personal presentation developed with React, where I showcase my technical skills, links to my professional networks, and a summary of my profile.",
-        "aboutPageB": "It was created as a personal project to practice front-end development, modular organization with components, and data management through JavaScript files.",
+        "aboutPageB": "It was created as a personal project to practice frontend development, organize code using components, and manage data through modular JavaScript files.",
         "manual": "📘 User manual",
         "first": "Home:",
-        "firstText": "General information and redirection to any option in the Networks section.",
+        "firstText": "General personal information and shortcuts to any option in the Networks section.",
         "second": "Projects:",
-        "secondText": "There are previews, redirects to my web pages, and a bit of my backend projects.",
+        "secondText": "Includes previews, links to my websites, and an introduction to some of my backend projects.",
         "third": "Certificates:",
-        "thirdText": "My certificates from Platzi and other studies"
+        "thirdText": "My Platzi certificates and other academic achievements."
     },
   "projects": {
         "title": "My projects",
