@@ -1,34 +1,34 @@
 {
-    "header": {
-        "home": "Home",
-        "projects": "Projects",
-        "diplomas": "Diplomas",
-        "language": "ES"
-    },
-    "home": {
-        "aboutMe": "I'm a Software Development Technician with a degree from CESDE and a student at ITM. I'm passionate about programming; when I write code, the hours always fly by without me even noticing.",
-        "description": "I speak English, enjoy reading, and always strive to create well-structured and clean websites. I'm very curious and ready to learn everything I need to excel and get hired as a developer.",
-        "cv": "See resume",
-        "knowledge": "🧠 Knowledge",
-        "networks": "🌐 Networks",
-        "aboutPageTitle": "📄 About this page",
-        "aboutPage": "This website is a personal presentation developed with React, where I showcase my technical skills, links to my professional networks, and a summary of my profile.",
-        "aboutPageB": "It was created as a personal project to practice frontend development, organize code using components, and manage data through modular JavaScript files.",
-        "manual": "📘 User manual",
-        "first": "Home:",
-        "firstText": "General personal information and shortcuts to any option in the Networks section.",
-        "second": "Projects:",
-        "secondText": "Includes previews, links to my websites, and an introduction to some of my backend projects.",
-        "third": "Certificates:",
-        "thirdText": "My Platzi certificates and other academic achievements."
-    },
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "diplomas": "Diplomas",
+    "language": "ES"
+  },
+  "home": {
+    "aboutMe": "I'm a Software Development Technician graduated from CESDE and a Systems Engineering student at ITM. I'm passionate about programming and enjoy creating efficient, well-structured solutions. I like facing new challenges, learning modern technologies, and collaborating on real-world projects.",
+    "description": "I speak English, enjoy reading, and always strive to create well-structured and clean websites. I'm very curious and ready to learn everything I need to excel and get hired as a developer.",
+    "cv": "See resume",
+    "knowledge": "🧠 Knowledge",
+    "networks": "🌐 Networks",
+    "aboutPageTitle": "📄 About this page",
+    "aboutPage": "This website is a personal presentation developed with React.js, designed to showcase my knowledge, certificates, and experience in software development.",
+    "aboutPageB": "It applies best practices in responsive design, reusable components, JavaScript file integration, and route management. It also demonstrates my ability to develop personal projects with a professional structure.",
+    "manual": "📘 User manual",
+    "first": "Home:",
+    "firstText": "Main section with my introduction, technical knowledge, and links to professional networks.",
+    "second": "Projects:",
+    "secondText": "Displays my backend and web developments, links to their repositories, and pages deployed on Vercel.",
+    "third": "Certificates:",
+    "thirdText": "A collection of certificates from Platzi, English training, and technical education."
+  },
   "projects": {
-        "title": "My projects",
-        "button": "See on GitHub"
+    "title": "My projects",
+    "button": "See on GitHub"
   },
   "diplomas": {
     "programming": "Programming",
-    "english": "English",    
+    "english": "English",
     "other": "Others"
   }
 }

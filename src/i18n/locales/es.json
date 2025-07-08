@@ -6,21 +6,21 @@
     "language": "EN"
   },
   "home": {
-    "aboutMe": "Soy técnico en Desarrollo de Software graduado del CESDE y estudiante del ITM. Me apasiona programar, al escribir código las horas siempre se me pasan sin darme cuenta.",
-    "description": "Hablo inglés, disfruto leer y siempre busco crear páginas bien estructuradas y limpias. Soy muy curioso y estoy listo para aprender todo lo que necesite para destacarme y lograr ser contratado como desarrollador.",
+    "aboutMe": "Soy técnico en Desarrollo de Software egresado del CESDE y estudiante de Ingeniería en Sistemas en el ITM. Me apasiona programar y crear soluciones eficientes y bien estructuradas. Disfruto enfrentar nuevos retos, aprender tecnologías modernas y colaborar en proyectos reales.",
+    "description": "I speak English, enjoy reading, and constantly seek to improve as a frontend and backend developer. I'm ready to contribute value and continue growing professionally.",
     "cv": "Ver CV",
     "knowledge": "🧠 Conocimientos",
     "networks": "🌐 Redes",
     "aboutPageTitle": "📄 Sobre esta página",
-    "aboutPage": "Esta página web es una presentación personal desarrollada con React, donde muestro mis habilidades técnicas, enlaces a mis redes profesionales y un resumen de mi perfil.",
-    "aboutPageB": "Fue creada como un proyecto personal para practicar desarrollo frontend, organización modular con componentes, y manejo de datos a través de archivos JavaScript.",
+    "aboutPage": "Esta página es una presentación personal desarrollada con React.js, diseñada para mostrar mis conocimientos, certificados y experiencia en el desarrollo de software.",
+    "aboutPageB": "En ella aplico buenas prácticas de diseño responsivo, componentes reutilizables, integración con archivos JavaScript y manejo de rutas. Además, demuestra mi capacidad para desarrollar proyectos personales con estructura profesional.",
     "manual": "📘 Manual de uso",
     "first": "Inicio:",
-    "firstText": "Información general propia y redirección a cualquier opción en el apartado Redes.",
+    "firstText": "Sección principal con mi presentación, conocimientos y enlaces a redes profesionales.",
     "second": "Proyectos:",
-    "secondText": "Se encuentran las vistas previas, redirecciones a mis páginas web y un poco de mis proyectos backend.",
+    "secondText": "Muestra mis desarrollos backend, desarrollos web, enlaces a sus repositorios y páginas desplegadas en vercel.",
     "third": "Diplomas:",
-    "thirdText": "Mis certificados de platzi y demás estudios"
+    "thirdText": "Colección de certificados de Platzi, ingles y formación técnica obtenida."
   },
   "projects": {
         "title": "Mis proyectos",
