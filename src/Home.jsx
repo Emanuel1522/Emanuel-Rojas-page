@@ -12,7 +12,7 @@ function Home() {
       <main>
         <div className="principal-container">
           <div className="profile-container">
-            <img src="/profile.jpg" alt="" className="profile-image" />
+            <img src="/profile.jpeg" alt="" className="profile-image" />
             <div className="profile-text">
               <h2>Emanuel Rojas 👋</h2>
               <p>
