@@ -24,6 +24,7 @@
   },
   "projects": {
     "title": "My projects",
+    "myProject": "All",
     "button": "See on GitHub"
   },
   "diplomas": {

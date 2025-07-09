@@ -81,12 +81,16 @@ export const FrontProjects = [
   {
     img: "/projects/restaurant.JPG",
     titulo: {
-      en: "Website for Restaurant",
-      es: "Sitio Web para Restaurante"
+      en: "🍽️ Restaurant Website",
+      es: "🍽️ Sitio Web para Restaurante"
+    },
+    subtitulo: {
+      en: "React + User Registration + Persistent Cart",
+      es: "React + Registro de usuarios + Carrito persistente"
     },
     descripcion: {
-      en: "Modern design with digital menu, reservations, and dish gallery.",
-      es: "Diseño moderno con menú digital, reservas y galería de platos."
+      en: "Fullstack project featuring user login, interactive digital menu, and persistent shopping cart using localStorage. It also includes a user registration system connected to a Render-hosted database. You can log in using the credentials: admin",
+      es: "Proyecto fullstack con inicio de sesión, menú digital interactivo y carrito de compras persistente mediante localStorage, además de un sistema de registro de usuarios con una BD de Render. Puedes iniciar sesion con las credenciales: admin"
     },
 
     link: "https://web-sabor-y-alma.vercel.app",
@@ -95,12 +99,16 @@ export const FrontProjects = [
   {
     img: "/projects/app-suscripciones.JPG",
     titulo: {
-      en: "Subscription App",
-      es: "App de Suscripciones"
+      en: "📋 Subscriptions App",
+      es: "📋 App de Suscripciones"
+    },
+    subtitulo: {
+      en: "React + Full CRUD + User Management + Form Validation",
+      es: "React + CRUD completo + Gestión de usuarios + Validación de formularios"
     },
     descripcion: {
-      en: "App that manages user subscription plans and automated billing.",
-      es: "Aplicación que gestiona planes de suscripción de usuarios y facturación automatizada."
+      en: "Platform for registering and managing subscription plans. Includes login, search, edit, delete, and creation of subscriptions. Modern and user-friendly interface with form validation and dynamic state handling. You can log in using the credentials: admin",
+      es: "Plataforma que permite el registro y administración de planes de suscripción. Incluye login, búsqueda, edición, eliminación y creación de suscripciones. Interfaz moderna y amigable con validación de formularios y manejo dinámico del estado. Si quieres puedes iniciar sesion con las credenciales: admin"
     },
     link: "https://app-suscripciones.vercel.app",
     githubLink: "https://github.com/Emanuel1522/app-suscripciones"
@@ -108,12 +116,16 @@ export const FrontProjects = [
   {
     img: "/projects/todo-list.JPG",
     titulo: {
-      en: "Task List",
-      es: "Lista de Tareas"
+      en: "✅ ToDo List",
+      es: "✅ Lista de Tareas"
+    },
+    subtitulo: {
+      en: "React + useState + Local Data Management",
+      es: "React + useState + Gestión local de datos"
     },
     descripcion: {
-      en: "App to manage pending tasks with local storage.",
-      es: "App para gestionar tareas pendientes con almacenamiento local."
+      en: "Simple and efficient application to manage pending tasks. Allows adding, completing, and deleting tasks. State is saved locally, ensuring persistence.",
+      es: "Aplicación sencilla y eficiente para la gestión de tareas pendientes. Permite agregar, marcar como completadas y eliminar tareas. El estado se guarda localmente, garantizando persistencia."
     },
     link: "https://todo-list-1br2.vercel.app",
     githubLink: "https://github.com/Emanuel1522/Todo-list"
@@ -121,12 +133,16 @@ export const FrontProjects = [
   {
     img: "/projects/school-users.JPG",
     titulo: {
-      en: "School User Management",
-      es: "Gestión de Usuarios Escolares"
+      en: "🎓 School User Management",
+      es: "🎓 Gestión de Usuarios Escolares"
+    },
+    subtitulo: {
+      en: "React + CRUD for Students and Teachers",
+      es: "React + CRUD de estudiantes y profesores"
     },
     descripcion: {
-      en: "User CRUD system for an educational institution.",
-      es: "CRUD de usuarios para una institución educativa."
+      en: "System that allows searching users by exact name or viewing the complete list. You can access detailed information of each student or teacher, including profile picture and academic data.",
+      es: "Sistema que permite buscar usuarios por nombre exacto o visualizar el listado completo. Se puede acceder a la información detallada de cada estudiante o profesor, incluyendo imagen de perfil y datos académicos."
     },
     link: "https://front2-2.vercel.app",
     githubLink: "https://github.com/Emanuel1522/Front2-2"
@@ -134,12 +150,16 @@ export const FrontProjects = [
   {
     img: "/projects/calculator.JPG",
     titulo: {
-      en: "Interactive Calculator",
-      es: "Calculadora Interactiva"
+      en: "🧮 Interactive Calculator",
+      es: "🧮 Calculadora Interactiva"
+    },
+    subtitulo: {
+      en: "React + Basic Math Operations",
+      es: "React + Operaciones matemáticas básicas"
     },
     descripcion: {
-      en: "Web calculator with basic operations and responsive design.",
-      es: "Calculadora web con operaciones básicas y diseño responsive."
+      en: "Functional web calculator for basic operations (addition, subtraction, multiplication, division) with a clean interface.",
+      es: "Calculadora web funcional para operaciones básicas (suma, resta, multiplicación, división) con interfaz limpia"
     },
     link: "https://calculadora-psi-pied.vercel.app",
     githubLink: "https://github.com/Emanuel1522/Calculadora"
@@ -147,12 +167,16 @@ export const FrontProjects = [
   {
     img: "/projects/pepito-school.JPG",
     titulo: {
-      en: "Pepito School System",
-      es: "Sistema Escolar Pepito School"
+      en: "🏫 “Pepito School” Academic System",
+      es: "🏫 Sistema Escolar “Pepito School”"
+    },
+    subtitulo: {
+      en: "HTML + JS + Simple Academic Operations",
+      es: "HTML + JS + Operaciones académicas simples"
     },
     descripcion: {
-      en: "Academic platform for students, teachers, and grades.",
-      es: "Plataforma académica para estudiantes, docentes y calificaciones."
+      en: "Simulated school system to input subject grades and automatically calculate the final semester average. Ideal for evaluating academic performance in a simple way.",
+      es: "Simulación de sistema escolar que permite ingresar notas por materia y calcular automáticamente el promedio final del semestre. Ideal para evaluar el rendimiento académico de forma sencilla."
     },
     link: "https://calculo-de-notas-seven.vercel.app",
     githubLink: "https://github.com/Emanuel1522/Calculo-de-notas"
@@ -160,14 +184,74 @@ export const FrontProjects = [
   {
     img: "/projects/postobon.JPG",
     titulo: {
-      en: "Postobón Landing Page",
-      es: "Landing de Postobón"
+      en: "🥤 Postobón Financial Status",
+      es: "🥤 Estado financiero Postobón"
+    },
+    subtitulo: {
+      en: "HTML + JS + Simulated Financial Calculations",
+      es: "HTML + JS + Cálculos financieros simulados"
     },
     descripcion: {
-      en: "Presentation page for Postobón products and campaigns.",
-      es: "Página de presentación para productos y campañas de Postobón."
+      en: "Static landing page with an attractive design and basic JavaScript operations to simulate a simple financial balance. Clearly presents products and campaigns in an accessible format.",
+      es: "Página estática con diseño atractivo y operaciones básicas implementadas con JavaScript para simular un balance financiero sencillo. Presenta productos de forma clara y accesible."
     },
     link: "https://postobon.vercel.app",
     githubLink: "https://github.com/Emanuel1522/Postobon"
   }
 ];
+
+export const BackProjects = [
+  {
+    img: "/projects/restaurant.JPG",
+    titulo: {
+      en: "",
+      es: "Mercado de platzi"
+    },
+    subtitulo: {
+      en: "",
+      es: "Java + Spring + arquitectura limpia + PostgreSQL + Postman"
+    },
+    descripcion: {
+      en: "",
+      es: "Backend desarrollado con Spring Boot y arquitectura limpia (hexagonal) que simula un sistema de compras para un supermercado digital llamado Platzi Market. El sistema permite realizar operaciones CRUD sobre productos, categorías y compras."
+    },
+
+    link: "https://github.com/Emanuel1522/Practica-platzi",
+    githubLink: "https://github.com/Emanuel1522/Practica-platzi"
+  },
+  {
+    img: "/projects/restaurant.JPG",
+    titulo: {
+      en: "",
+      es: "Sistema escolar"
+    },
+    subtitulo: {
+      en: "",
+      es: "Java + Spring + arquitectura por capas + MySQL + Postman"
+    },
+    descripcion: {
+      en: "",
+      es: "API RESTful desarrollada con Spring Boot para la gestión académica de un colegio. Permite registrar estudiantes, profesores, cursos, asignaturas, calificaciones, asistencias y más, integrando relaciones entre entidades y operaciones CRUD."
+    },
+
+    link: "https://github.com/Emanuel1522/Programa-backend-jueves",
+    githubLink: "https://github.com/Emanuel1522/Programa-backend-jueves"
+  },
+  {
+    img: "/projects/restaurant.JPG",
+    titulo: {
+      en: "",
+      es: "Api REST Sabor y Alma"
+    },
+    subtitulo: {
+      en: "",
+      es: "Java + Spring + arquitectura por capas + MySQL + Postman"
+    },
+    descripcion: {
+      en: "https://github.com/Emanuel1522/proyecto-final-backend",
+      es: "Backend desarrollado con Spring Boot para gestionar el sistema de pedidos de un restaurante ficticio llamado Sabor y Alma. Esta API permite realizar operaciones CRUD completas sobre clientes, pedidos, platos, carritos de compra y más."
+    },
+
+    githubLink: "https://github.com/Emanuel1522/proyecto-final-backend"
+  }
+]
