@@ -245,10 +245,10 @@ export const BackProjects = [
     },
     subtitulo: {
       en: "Java · Spring Boot · Layered Architecture · MySQL · Postman",
-      es: "Java + Spring + arquitectura por capas + MySQL + Postman"
+      es: "Java + Spring Boot + arquitectura por capas + MySQL + Postman"
     },
     descripcion: {
-      en: "https://github.com/Emanuel1522/proyecto-final-backend",
+      en: "Backend developed with Spring Boot using a layered architecture for a fictional restaurant ordering system called Sabor y Alma. This API allows management of customers, orders, dishes, and shopping carts, offering full CRUD operations and relationships between resources.",
       es: "Backend desarrollado con Spring Boot utilizando arquitectura por capas para el sistema de pedidos de un restaurante ficticio llamado Sabor y Alma. Esta API permite gestionar clientes, pedidos, platos y carritos de compra, ofreciendo operaciones CRUD completas y relaciones entre los recursos."
     },
     link: "https://github.com/Emanuel1522/proyecto-final-backend",
