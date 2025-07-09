@@ -57,7 +57,8 @@ body.dark-theme .header-li,
 body.dark-theme .diploma-container,
 body.dark-theme .project-target,
 body.dark-theme .project-target p,
-body.dark-theme .project-target h1 {
+body.dark-theme .project-target h1,
+body.dark-theme .option {
   background-color: rgb(45, 45, 45);
   color: #E5E7EB;
 }
@@ -65,6 +66,11 @@ body.dark-theme .project-target h1 {
 body.dark-theme .category,
 body.dark-theme .title {
   color: white;
+}
+
+body.dark-theme .option {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='12'%20height='12'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23ffffff'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpolyline%20points='6%209%2012%2015%2018%209'%3E%3C/polyline%3E%3C/svg%3E");
+  
 }
 
 .profile-image {

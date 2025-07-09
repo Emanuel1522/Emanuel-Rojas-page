@@ -15,13 +15,19 @@
 }
 
 .option {
-    padding: 0.5rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    font-size: 1rem;
-    color: #333;
-    width: 200px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #f1f7ff;
+  color: black;
+  border: 1px solid #4b5563;
+  font-size: 16px;
+  width: 200px;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='12'%20height='12'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23000000'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%3E%3Cpolyline%20points='6%209%2012%2015%2018%209'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  cursor: pointer;
 }
 
 .project-section {

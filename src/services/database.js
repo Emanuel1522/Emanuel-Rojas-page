@@ -202,56 +202,56 @@ export const FrontProjects = [
 
 export const BackProjects = [
   {
-    img: "/projects/restaurant.JPG",
+    img: "/projects/platzi-market.JPG",
     titulo: {
-      en: "",
-      es: "Mercado de platzi"
+      en: "🛒 Platzi Market",
+      es: "🛒 Mercado de Platzi"
     },
     subtitulo: {
-      en: "",
-      es: "Java + Spring + arquitectura limpia + PostgreSQL + Postman"
+      en: "Java · Spring Boot · Clean Architecture · PostgreSQL · Postman",
+      es: "Java · Spring Boot · Arquitectura limpia · PostgreSQL · Postman"
     },
     descripcion: {
-      en: "",
-      es: "Backend desarrollado con Spring Boot y arquitectura limpia (hexagonal) que simula un sistema de compras para un supermercado digital llamado Platzi Market. El sistema permite realizar operaciones CRUD sobre productos, categorías y compras."
+      en: "Backend developed with Spring Boot following clean (hexagonal) architecture principles. It simulates the purchasing system of a fictional digital supermarket called Platzi Market. The API enables full CRUD operations for products, categories, and purchases, with proper entity relationships.",
+      es: "Backend desarrollado con Spring Boot siguiendo principios de arquitectura limpia (hexagonal), que simula el sistema de compras de un supermercado digital ficticio llamado Platzi Market. La API permite gestionar productos, categorías y compras, implementando operaciones CRUD completas y relaciones entre entidades."
     },
 
     link: "https://github.com/Emanuel1522/Practica-platzi",
     githubLink: "https://github.com/Emanuel1522/Practica-platzi"
   },
   {
-    img: "/projects/restaurant.JPG",
+    img: "/projects/escuela-backend.JPG",
     titulo: {
-      en: "",
-      es: "Sistema escolar"
+      en: "🎓 School Management System",
+      es: "🎓 Sistema escolar"
     },
     subtitulo: {
-      en: "",
-      es: "Java + Spring + arquitectura por capas + MySQL + Postman"
+      en: "Java · Spring Boot · Layered Architecture · MySQL · Postman",
+      es: "Java · Spring Boot · Arquitectura por capas · MySQL · Postman"
     },
     descripcion: {
-      en: "",
-      es: "API RESTful desarrollada con Spring Boot para la gestión académica de un colegio. Permite registrar estudiantes, profesores, cursos, asignaturas, calificaciones, asistencias y más, integrando relaciones entre entidades y operaciones CRUD."
+      en: "RESTful API built with Spring Boot using layered architecture, designed for managing a school's academic operations. It supports registration and management of students, teachers, courses, subjects, grades, and attendance, with well-integrated entity relationships and full CRUD functionality.",
+      es: "API RESTful construida con Spring Boot utilizando arquitectura por capas para la gestión académica de un colegio. Permite registrar y administrar estudiantes, profesores, cursos, materias, calificaciones y asistencias, integrando relaciones entre entidades con operaciones CRUD robustas."
     },
 
     link: "https://github.com/Emanuel1522/Programa-backend-jueves",
     githubLink: "https://github.com/Emanuel1522/Programa-backend-jueves"
   },
   {
-    img: "/projects/restaurant.JPG",
+    img: "/projects/restaurante-backend.JPG",
     titulo: {
-      en: "",
-      es: "Api REST Sabor y Alma"
+      en: "🍽️ Sabor y Alma REST API",
+      es: "🍽️ API REST Sabor y Alma"
     },
     subtitulo: {
-      en: "",
+      en: "Java · Spring Boot · Layered Architecture · MySQL · Postman",
       es: "Java + Spring + arquitectura por capas + MySQL + Postman"
     },
     descripcion: {
       en: "https://github.com/Emanuel1522/proyecto-final-backend",
-      es: "Backend desarrollado con Spring Boot para gestionar el sistema de pedidos de un restaurante ficticio llamado Sabor y Alma. Esta API permite realizar operaciones CRUD completas sobre clientes, pedidos, platos, carritos de compra y más."
+      es: "Backend desarrollado con Spring Boot utilizando arquitectura por capas para el sistema de pedidos de un restaurante ficticio llamado Sabor y Alma. Esta API permite gestionar clientes, pedidos, platos y carritos de compra, ofreciendo operaciones CRUD completas y relaciones entre los recursos."
     },
-
+    link: "https://github.com/Emanuel1522/proyecto-final-backend",
     githubLink: "https://github.com/Emanuel1522/proyecto-final-backend"
   }
 ]

@@ -16,9 +16,9 @@ const Project = () => {
         <div className="project-header">
           <h2 className="title">{t("projects.title")}</h2>
             <select className="option" name="projects" onChange={(e) => setOption(e.target.value)}>
-              <option value="all">{t("projects.myProject")}</option>
-              <option value="FrontProjects">Frontend</option>
-              <option value="BackProjects">Backend</option>
+              <option value="all" className="selector">{t("projects.myProject")}</option>
+              <option value="FrontProjects" className="selector">Frontend</option>
+              <option value="BackProjects" className="selector">Backend</option>
             </select>
         </div>
         {(option === "all" || option === "FrontProjects") && (
