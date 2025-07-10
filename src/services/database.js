@@ -202,6 +202,23 @@ export const FrontProjects = [
 
 export const BackProjects = [
   {
+    img: "/projects/vending-machine-backend.JPG",
+    titulo: {
+      en: "🥤 Vending Machine",
+      es: "🥤 Máquina Expendedora"
+    },
+    subtitulo: {
+      en: "Java · Spring Boot · Layered Architecture · H2 · Postman",
+      es: "Java · Spring Boot · Arquitectura por capas · H2 · Postman"
+    },
+    descripcion: {
+      en: "Backend developed with Spring Boot simulating the logic of a vending machine. The API allows creating a sale, generating a dynamic payment QR, checking the payment status, and automatically releasing the product once the payment is confirmed. It also handles sale expiration after 3 minutes if unpaid, accurately mimicking a real-world vending system.",
+      es: "Backend desarrollado con Spring Boot simulando el funcionamiento de una máquina expendedora. La API permite registrar una venta, generar un código QR de pago, verificar el estado del pago y liberar automáticamente el producto al recibir la confirmación. El sistema también gestiona la expiración de ventas pasados 3 minutos sin pago, replicando una lógica real de funcionamiento."
+    },
+    link: "https://github.com/Emanuel1522/vending-machine-backend",
+    githubLink: "https://github.com/Emanuel1522/vending-machine-backend"
+  },
+  {
     img: "/projects/platzi-market.JPG",
     titulo: {
       en: "🛒 Platzi Market",
@@ -215,7 +232,6 @@ export const BackProjects = [
       en: "Backend developed with Spring Boot following clean (hexagonal) architecture principles. It simulates the purchasing system of a fictional digital supermarket called Platzi Market. The API enables full CRUD operations for products, categories, and purchases, with proper entity relationships.",
       es: "Backend desarrollado con Spring Boot siguiendo principios de arquitectura limpia (hexagonal), que simula el sistema de compras de un supermercado digital ficticio llamado Platzi Market. La API permite gestionar productos, categorías y compras, implementando operaciones CRUD completas y relaciones entre entidades."
     },
-
     link: "https://github.com/Emanuel1522/Practica-platzi",
     githubLink: "https://github.com/Emanuel1522/Practica-platzi"
   },
@@ -233,7 +249,6 @@ export const BackProjects = [
       en: "RESTful API built with Spring Boot using layered architecture, designed for managing a school's academic operations. It supports registration and management of students, teachers, courses, subjects, grades, and attendance, with well-integrated entity relationships and full CRUD functionality.",
       es: "API RESTful construida con Spring Boot utilizando arquitectura por capas para la gestión académica de un colegio. Permite registrar y administrar estudiantes, profesores, cursos, materias, calificaciones y asistencias, integrando relaciones entre entidades con operaciones CRUD robustas."
     },
-
     link: "https://github.com/Emanuel1522/Programa-backend-jueves",
     githubLink: "https://github.com/Emanuel1522/Programa-backend-jueves"
   },
