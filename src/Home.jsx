@@ -25,13 +25,15 @@ function Home() {
         <div className="principal-container">
           <div className="medium-container">
             <h2>{t("home.knowledge")}</h2>
-            <div className="icon-grid">
-              {iconosKnowledge.map((item, index) => (
-                <div className="icon-item" key={index}>
-                  <img src={item.img} alt={item.nombre} />
-                  <p>{item.nombre}</p>
-                </div>
-              ))}
+            <div className="scroll-wrapper">
+              <div className="icon-container">
+                {iconosKnowledge.map((item, index) => (
+                  <div className="icon-item" key={index}>
+                    <img src={item.img} alt={item.nombre} />
+                    <p>{item.nombre}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
           <div className="medium-container">

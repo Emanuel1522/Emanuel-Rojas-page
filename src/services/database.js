@@ -1,13 +1,5 @@
 export const iconosKnowledge = [
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-    nombre: "Java"
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-    nombre: "Spring"
-  },
-  {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     nombre: "HTML"
   },
@@ -24,12 +16,20 @@ export const iconosKnowledge = [
     nombre: "React.js"
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    nombre: "Node.js"
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    nombre: "Java"
+  },
+  {
+    img: "https://simpleicons.org/icons/springboot.svg",
+    nombre: "Spring Boot"
   },
   {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     nombre: "MySQL"
+  },
+  {
+    img: "https://simpleicons.org/icons/postgresql.svg",
+    nombre: "PostgreSQL"
   },
   {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -46,6 +46,26 @@ export const iconosKnowledge = [
   {
     img: "https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png",
     nombre: "Vercel"
+  },
+  {
+    img: "https://simpleicons.org/icons/swagger.svg",
+    nombre: "Swagger"
+  },
+  {
+    img: "https://simpleicons.org/icons/postman.svg",
+    nombre: "Postman"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/reactrouter/reactrouter-original.svg",
+    nombre: "React Router"
+  },
+  {
+    img: "https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/json.svg",
+    nombre: "JSON"
+  },
+  {
+    img: "https://simpleicons.org/icons/bootstrap.svg",
+    nombre: "Bootstrap"
   }
 ];
 
