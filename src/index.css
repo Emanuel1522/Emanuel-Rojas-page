@@ -126,11 +126,10 @@ body.dark-theme .option {
 }
 
 .scroll-wrapper {
-  height: 460px;
+  height: 510px;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .icon-container {
@@ -240,7 +239,7 @@ body.dark-theme .option {
   }
 
   .medium-container {
-    padding: 10px 60px;
+    padding: 10px 50px;
   }
 
   .scroll-wrapper {
