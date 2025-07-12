@@ -294,4 +294,8 @@ body.dark-theme .option {
   .medium-container {
     padding: 10px 0;
   }
+
+  .icon-item {
+  width: 60px;
+  }
 }
